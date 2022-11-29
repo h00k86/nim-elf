@@ -10,6 +10,7 @@ import std/streams
 
 when isMainModule:
  
+  echo "start"
   var x = newFileStream("./data_rapresentation",fmRead)
 
   var arr: Elf32_Ehdr
